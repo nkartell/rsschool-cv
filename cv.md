@@ -18,7 +18,7 @@ I am studying the basics of programming and front-end development. I hope to imp
 - JavaScript
 ***
 #### __Code example:__ 
-```
+```Javascript
 let removeVowels = function(str){
     let vowels = ['a' ,'e' ,'i', 'o', 'u'];
     let arr = str.split('');;
