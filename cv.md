@@ -1,4 +1,4 @@
-## __Nastya Kuzmianok__ #
+## __Nastya Kuzmenok__ #
 
 ***
 
@@ -29,12 +29,12 @@ I am studying the basics of programming and front-end development. I hope to imp
 ```Javascript
 let removeVowels = function(str){
     let vowels = ['a' ,'e' ,'i', 'o', 'u'];
-    let arr = str.split('');;
+    let arr = str.split('');
     let answer = [];
   
     for (let i = 0; i < arr.length; i++) {
         if (!vowels.includes(arr[i])) {
-            answer.push(arr[i])
+            answer.push(arr[i]);
         }       
     }
     return answer.join('');
