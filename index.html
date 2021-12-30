@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="cv" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header">
+
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#work-experience" class="nav-link">Work experience</a></li>
+                    <li class="nav-item"><a href="#education-and-courses" class="nav-link">Education and courses</a>
+                    </li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <main class="main">
+        <div class="container main-container">
+
+            <section class="section section-profile" id="profile">
+                <img src="assets/img/image2.jpg" alt="photo of Nastya Kuzmenok" width="280" height="320">
+
+                <div class="section-title-profile">
+                    <h1 class="section-title main-title">Nastya Kuzmenok</h1>
+                    <p>Front-end developer</p>
+                </div>
+
+            </section>
+
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Phone number:<span> +375291345064</span></li>
+                    <li class="section-item">E-mail:<span> nkartsel@gmail.com </span></li>
+                    <li class="section-item">GitHub:<span> nkartell</span></li>
+                </ul>
+            </section>
+
+            <section class="section" id="about-myself">
+                <h2 class="section-title">About myself</h2>
+                <p>I am studying the basics of programming and front-end development.<br>
+                    I hope to improve my skills at the Rolling Scopes School and get a job<br> as a front-end developer
+                    in
+                    the future.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS</li>
+                    <li class="section-item">GIT</li>
+                    <li class="section-item">JavaScript</li>
+                </ul>
+            </section>
+
+            <section class="section" id="education-and-courses">
+                <h2 class="section-title">Education and courses</h2>
+                <ul class="section-list">
+                    <li class="section-item"><span>University</span>
+                        <ul>
+                            <li class="section-item">Francisk Skorina Gomel State University, major in jurisprudence.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="section-item"><span>Courses</span>
+                        <ul>
+                            <li class="section-item">CS50 lectures</li>
+                            <li class="section-item">Free courses on hexlet.io</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="work-experience">
+                <h2 class="section-title">Work experience:</h2>
+                <p>I have been working as a lawyer for five years.</p>
+            </section>
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example:</h2>
+
+                <pre class="pre"><code class="code">
+let removeVowels = function(str) {
+    let vowels = ['a' ,'e' ,'i', 'o', 'u'];
+    let arr = str.split('');
+    let answer = [];
+                    
+    for (let i = 0; i &lt; arr.length; i++) {
+        if (!vowels.includes(arr[i])) {
+            answer.push(arr[i]);
+        }   
+    }
+    return answer.join('');
+}</code></pre>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 Pre-Intermediate</p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div> 2022 <a href="https://github.com/nkartell" class="nav-link">My GitHub</a></div>
+
+            <div><a href="https://rs.school/js/" class="rs-school">
+                    <img src="https://rs.school/images/rs_school_js.svg" width="80" height="50" alt="RS School"></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
