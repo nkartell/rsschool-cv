@@ -88,11 +88,11 @@
 let removeVowels = function(str) {
     let vowels = ['a' ,'e' ,'i', 'o', 'u'];
     let arr = str.split('');
-    let answer = [];                    
+    let answer = [];
     for (let i = 0; i &lt; arr.length; i++) {
         if (!vowels.includes(arr[i])) {
             answer.push(arr[i]);
-        }   
+        }
     }
     return answer.join('');
 }</code></pre>
